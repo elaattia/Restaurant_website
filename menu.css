@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    position:sticky;
+    top: 0;
+    box-shadow: 0 2px 25px #00000013;
+    z-index: 10;
+    background-color: white;
+}
+.header{
+    display: flex;
+    gap: 5px;
+}
+.burger{
+    
+    background-color: rgba(255, 166, 0, 0.824);
+    height: 60px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+.icon{
+    background-color: rgb(204,204,204);
+    border-radius: 25px;
+    padding: 8px 8px;
+    color: grey;
+    height: fit-content;
+}
+.header p{
+    padding: 8px 8px;
+}
+.name{
+    color: orange;
+    font-size: 30px;
+    font-weight: 700;
+}
+.name span{
+    color: rgb(227, 206, 178);
+}
+.food{
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-top: 20px;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    
+}
+.but{
+    background-color: rgb(240, 152, 80);
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    color: white;
+    cursor: pointer;
+}
+.card{
+    padding: 10px;
+}
+.heart{
+    position: relative;
+    width: fit-content;
+}
+.heart i{
+    position: absolute;
+    right: 0;
+}
+.heart img{
+    width: 240px;
+}
+.shoop{
+    position: relative;
+    width: fit-content   ;
+     
+}
+.panierr{
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    display: block;
+    top: 0;
+    right: 0;
+    
+ }
+
+ #dropdown{
+    width: fit-content;
+    height: fit-content;
+   
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    display: none;
+ }
+ .dropdown-container{
+    position: relative;
+ }
+ .added-item img , .added-item button ,.added-item i{
+        display: none;
+ }
+
+ .added-item{
+    display: flex;
+    
+ }

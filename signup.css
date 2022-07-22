@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+head{
+    background-color: rgb(255, 250, 241);
+}
+section{
+    display: flex;
+}
+.left{
+    background-color: #F5F5F5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left img{
+    width: 50%;
+}
+.left span{
+    color: orange;
+}
+.left p {
+    color: grey;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.right{
+    
+    padding: 20px 40px 0;
+    width: 50%;
+}
+.right p{
+    color: grey;
+    font-size: 18px;
+}
+.right p span{
+    color: orange;
+    
+}
+#message{
+    font-size: 14px;
+}
+#message a{
+    text-decoration: none;
+    color: orange;
+  
+}
+form{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    color: grey;
+    width: 100%;
+}
+
+form input{
+    border-radius: 25px;
+    border: 1px solid grey;
+    padding: 10px 12px;
+    width: 80%;
+    outline: none;
+ 
+}
+.term{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.term input{
+    width: 5%;
+   
+}
+.term label{
+    font-size: 12px;
+    width: 100%;
+}
+.term label span{
+    color: orange;
+}
+.button{
+    padding: 20px 0;
+    align-self: center;
+  
+    
+}
+.button button{
+    border: 0;
+    text-transform: capitalize;
+    background-color: orange;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+.remember input{
+    width: fit-content;
+   
+}
+.remember {
+    display: flex;
+    justify-content: space-between;
+}
+.remember label span{
+    color: orange;
+}
+.remember a{
+    text-decoration: none;
+    color: grey;
+}
+.remember a span{
+    color: orange;
+}
+
+.login{
+    display: none;
+}
+#V_nom , #V_alpha{
+    display: none;
+    color: orange;
+}
+a{
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+ .left{
+    display: none;
+ }
+ .right{
+    width: 100%;
+ }
+
+}

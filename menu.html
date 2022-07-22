@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header>
+        <p class="name">THE COR<span>NER</span> </p>
+        <div class="header">
+            
+            <div class="dropdown-container">
+            <div class="shoop">
+                <i onclick="show()"class="fa-solid fa-cart-shopping icon"></i>
+                <span id="add" class="panierr">0</span>
+            </div>
+            <div id="dropdown">
+
+            </div>
+        </div>
+            <p>Panier</p>
+        </div>
+    </header>
+    
+    <section>
+        
+        <div class="food">
+            <div class="burger">
+                <h1>BURGER</h1>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <div class="heart">
+                    <img src="CHEESEBURGER.jfif" alt="">
+                    <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+                </div>
+                    <p>Cheese Burger</p>
+                    <p>15 DT</p>
+                    <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+                </div>
+                <div class="card">
+                    <div class="heart">
+                    <img src="paradisechickenburger.jfif" alt="">
+                    <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+                </div>
+                    <p>Paradise Chicken Burger</p>
+                    <p>13 DT</p>
+                    <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+                </div>
+            <div class="card">
+                <div class="heart">
+                <img src="crispychickenburger.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>Crispy Chicken Burger</p>
+                <p>12 DT</p>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="spicy buffalo burger.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>Spicy Buffalo Burger</p>
+                <p>10 DT</p>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+        </div>
+        <div class="burger">
+            <h1>PIZZA</h1>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="heart">
+                <img src="FOURCHEESEPIZZA.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>Four Cheese Pizza</p>
+                <P>7 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="CHICKENPIZZA.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>Chicken Pizza</p>
+                <P>12 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+       
+            <div class="card">
+                <div class="heart">
+                <img src="margheritapizza.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>Margherita Pizza</p>
+                <P>10 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="PIZZA AUX FRUITS DE MER.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>Pizza aux Fruits de mer</p>
+                <P>20 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+        </div>
+        <div class="burger">
+            <h1>PASTA</h1>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="heart">
+                <img src="chicken florentine pasta.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>chicken florentine pasta</p>
+                <P>20 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="lemon ricotta pasta.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>lemon ricotta pasta</p>
+                <P>20 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="pasta puttanesca.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>pasta puttanesca</p>
+                <P>20 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+        
+            <div class="card">
+                <div class="heart">
+                <img src="stuffed rigatoni pasta.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>stuffed rigatoni pasta</p>
+                <P>17 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+        </div>
+        <div class="burger">
+            <h1>LASAGNE</h1>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="heart">
+                <img src="vegetarianlazanya.jpeg" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>vegetarien lazanya</p>
+                <P>10 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="lasagne a la viande.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>lasagne a la viande</p>
+                <P>19 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="lasagne bolognaise.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>lasagne bolognaise</p>
+                <P>19 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="lasagne fruit de mer.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>lasagne fruit de mer</p>
+                <P>25 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+        </div>
+        <div class="burger">
+            <h1>CUPCAKE</h1>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="heart">
+                <img src="cookies and cream cupcakes.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>cookies and cream cupcakes</p>
+                <P>7 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="blueberry cupcakes.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>blueberry cupcakes</p>
+                <P>7 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="chocolate banana cupcakes.jfif" alt="">
+                <i onclick="heart()"  class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>chocolate banana cupcakes</p>
+                <P>10 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping heart"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="strawberry and cream cupcakes.jpg" alt="">
+                <i onclick="heart()"  class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>strawberry and cream cupcakes</p>
+                <P>7 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping heart"></i>add to cart</button>
+            </div>
+        </div>
+        <div class="burger">
+            <h1>SALAD</h1>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="heart">
+                <img src="thai chicken salad.jfif" alt="">
+                <i onclick="heart()" class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>thai chicken salad</p>
+                <P>27 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping heart"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="truffled beef salad.jfif" alt="">
+                <i onclick="heart()"  class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>truffled beef salad</p>
+                <P>27 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping heart"></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="mixed beetsalad.jfif" alt="">
+                <i onclick="heart()"  class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>mixed beet salad</p>
+                <P>65 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping "></i>add to cart</button>
+            </div>
+            <div class="card">
+                <div class="heart">
+                <img src="maftoul and mozzarella salad.jfif" alt="">
+                <i onclick="heart()"  class="fa-solid fa-heart icon heart"></i>
+            </div>
+                <p>maftoul and mozzarella salad</p>
+                <P>20 DT</P>
+                <button class="but" onclick="add()"> <i class="fa-solid fa-basket-shopping"></i>add to cart</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="menu.js"></script>
+</body>
+</html>

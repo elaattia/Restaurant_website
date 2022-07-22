@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(255, 250, 241);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /*justify-content: space-around;*/
+  }
+  
+.title img{
+    width: 20px;
+    height: 20px; 
+}
+header{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 10px 10px;
+   
+   
+}
+.header{
+    display: flex;
+    
+    gap: 45px;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.titre{
+    font-size: 20px;
+    font-weight: 700;
+    color: orange;
+}
+.orange {
+    text-decoration: none;
+}
+.orange:hover{
+    color: orange;
+}
+.icon{
+    display: flex;
+    gap:20px;
+    
+    align-items: center;
+
+    
+}
+.but{
+    width: 100% !important;
+    height: auto !important;
+}
+.log-in{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    width: 70px;
+    height: 25px;
+}
+.about{
+    display: flex;
+    
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+#thecorner{
+    width: 80%;
+   display: flex;
+   padding: 10vw 0;
+  
+}
+.more{
+    width: fit-content;
+}
+#thecorner img{
+   
+    height: 500px;
+    width: 50%;
+}
+.section2 {
+    width: fit-content !important;
+    padding: 0 20px !important;
+}
+.nn{
+    padding-bottom: 150px;
+}
+.nn img{
+    height: 400px !important;
+    width: 600px !important;
+}
+.more{
+    
+    
+    
+    color: orange;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.more img{
+    height: 160px !important;
+}
+.delicious{
+    font-size: 70px;
+    font-weight: 700;
+}
+.delicious span{
+    color: orange;
+}
+.pp{
+}
+.ourjob{
+    
+    font-size: 25px;
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.butt i{
+    color: orange;
+
+}
+.butt{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.section2{
+    width: 150px;
+    height: 20px;
+    background-color: rgba(255, 228, 179, 0.943);
+    color: orange;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.menu{
+    width: 100%;
+}
+.favouritefood{
+    font-size: 40px;
+    font-weight: 500;
+    width: 60%;
+    text-align: center;
+}
+.butto .foood{
+    background-color: rgb(255, 250, 241);
+    padding: 2px 4px;
+}
+.favouritefood span{
+    color: orange;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.i{
+    display: flex;
+   
+}
+.best{
+    font-size: 25px;
+    font-weight: 700;
+}
+.parag{
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+}
+.iconn{
+    color: orange;
+}
+.section3{
+    width: 120px;
+    height: 20px;
+    background-color: rgba(255, 228, 179, 0.943);
+    color: orange;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.sec3{
+    font-size: 30px;
+    font-weight: 500;
+    width: 400px;
+}
+.menu{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.foood{
+ 
+    color: orange;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid orange;
+   
+}
+.butto{
+    display: flex;
+    gap: 20px;
+}
+.food{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    height: 54vh;
+
+    
+   
+}
+
+.card img{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+.but{
+    background-color: orange;
+    color: white;
+    width: 100px;
+    height: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.card{
+    
+    width: 100%;
+    border-radius: 25px;
+    height: 300px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.food{
+    width: 100%;
+}
+.transparent{
+    background-color: rgba(144, 142, 142, 0.429);
+    height: 80px;
+    border-radius: 0px 0px 25px 25px;
+}
+.cheese{
+    background-image: url(cheese\ burger.jpeg);
+}
+.crispy{
+    background-image: url(crispy\ chicken\ burger.jpg);
+}
+.creamy{
+    background-image: url(creamy\ mushroom\ burger.jpg);
+}
+.foood:active{
+    color: white;
+    background-color: orange;
+}
+.margherita{
+    background-image: url(margheritapizza.jfif);
+}
+.chickenpizza{
+    background-image: url(crispypizza.jfif);
+}
+.meat{
+    background-image: url(creapizza.jfif);
+}
+.etoile{
+    display: flex;
+    color: orange;
+}
+.chickenpasta{
+    background-image: url(ChickenFlorentinePasta.jfif);
+}
+.lemonpasta{
+    background-image: url(LemonRicottaPasta.jpg);
+}
+.pastaasparagus{
+    background-image: url(pasta\ with\ asparagus.jfif);
+}
+.lasagnaviande{
+    background-image: url(lazanyaviande.jfif);
+}
+.venetallazanya{
+    background-image: url(venetalazanya.jpg);
+}
+.vegetlasagne{
+    background-image: url(vegetarianlazanya.jpeg);
+}
+.redvelvetcupcakes{
+    background-image: url(red\ velvet\ cupcakes.jfif);
+}
+.cookiesandcreamcupcakes{
+    background-image: url(cookiesandcreamcupcakes.jfif);
+}
+.chocolatecupcakes{
+    background-image: url(chocolatecupcakes.jfif);
+}
+.ceasarsalad{
+    background-image: url(ceasarsalad.jfif);
+}
+.veggiesalad{
+    background-image: url(veggiesalad.jfif);
+}
+.greeksalad{
+    background-image: url(greeksalad.jfif);
+}
+.section4{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.mostpopular{
+    padding: 8px 10px;
+    gap: 10px;
+  
+    display: flex;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+
+}
+.more{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.sec4{
+    font-size: 35px;
+    font-weight: 500;
+   padding-bottom: 40px;
+}
+.newcolor{
+    background-color: rgba(243, 226, 197, 0.858);
+    
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.sec5{
+    font-size: 27px;
+    font-weight: 500;
+   padding-bottom: 40px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+   
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.size{
+    font-size: 40px;
+}
+.size span{
+    color: orange;
+    font-weight: 900;
+    font-size: 40px;
+}
+.gr{
+    color: rgb(75, 73, 73);
+    font-weight: 500;
+}
+.femme1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.apostrophe{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    
+
+}
+.namee{
+    display: flex;
+}
+.sec7{
+    padding-bottom: 50px;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 200px;
+}
+.aa{
+    display: flex;
+    gap: 20px;
+}
+.aaa{
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(76, 75, 75);
+    border-radius: 10px;
+}
+.subscribe{
+    display: flex;
+    background-color: rgba(243, 226, 197, 0.858);
+   
+    width: 100%;
+}
+.subscribe img{
+    width: 300px;
+    height: 300px;
+}
+footer{
+    display: flex;
+    gap: 100px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.foo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.i{
+    gap: 10px;
+}
+.subscribe{
+    display: flex;
+   gap: 150px;
+   
+}
+.style{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.c{
+padding-top: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.c .more p>p{
+    font-size: 40px;
+}
+.what{
+    width: 150px;
+    height: 20px;
+    background-color: rgba(255, 228, 179, 0.943);
+    color: orange;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.who{
+    width: 120px;
+    height: 20px;
+    background-color: rgba(255, 228, 179, 0.943);
+    color: orange;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.test{
+    width: 120px;
+    height: 20px;
+    background-color: rgba(255, 228, 179, 0.943);
+    color: orange;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.getstart{
+    background-color: orange;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+.gras{
+    font-size: 27px;
+    font-weight: 600;
+}
+.subscribe input{
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+}
+.subscribe button{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    width: 90px;
+    height: 25px;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.small{
+    width: 300px;
+}
+.fin{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.shoop{
+    position: relative;
+    width: fit-content;
+    
+     
+}
+#dropdown{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+}
+.added-item img , .added-item button ,.added-item ,.added-item p:first-child{
+    display: none;
+}
+
+.added-item{
+display: flex;
+
+}
+.iconss{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.iconsss{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.iconsss img{
+    width: 50px;
+    height: 50px;
+}
+.iconssss{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.iconssss img{
+    width: 30px;
+    height: 50px;
+}
+.order{
+    
+    height: 40px;
+    width: 40px;
+}

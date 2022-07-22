@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <section>
+        
+        <div class="right" id="signup">
+            <p><span>Sign </span>Up</p>
+            <p id="message">Already have an account?<a  onclick="hello()">log in</a></p>
+            <form action="">
+                <label for="">Name</label>
+                <input id="name" type="text" placeholder="Your name" name="" >
+                <span id="V_nom">*Veuillez vérifier votre nom</span>
+                <span id="V_alpha">*Verifier alphabetique</span>
+                <label for="">Email</label>
+                <input type="text" placeholder="exemple@gmail.com" name="" id="">
+                <label for="">Address</label>
+                <input id="address" type="text" placeholder="Your address" name="" >
+                <label for="">Phone Number</label>
+                <input id="address" type="text" placeholder="Your phone number" name="" >
+                <label for="">Password</label>
+                <input id="pw" type="password" placeholder="Enter password" name="" id="">
+              
+                <div class="term">
+                    <input  type="checkbox" name="" id="">
+                    <label for="">I agree to the <span>Platforms Terms </span>  of services and <span> Privacy Policy</span> </label>
+                </div>
+                <div class="button">
+                <button type="button" onclick="verif()">create account</button>
+                </div>
+            </form>
+        </div>
+        <div class="right login" id="signin">
+            <p><span>Login </span></p>
+            <p id="message">Don't have an account? <a  onclick="hello()">Sign Up</a></p>
+            <form action="">
+               
+                <label for="">Email</label>
+                <input type="text" placeholder="exemple@gmail.com" name="" id="">
+                <label for="">Password</label>
+                <input  id="pw" type="password" placeholder="Enter password" name="" id="">
+           
+              
+                <div class="remember">
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for=""> Remember <span>me</span></label>
+                    </div>
+                    <a href="">forget your <span>password?</span></a>
+                </div>
+                <div class="button">
+                <button>login</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+
+    <script src="signup.js"></script>
+</body>
+</html>
