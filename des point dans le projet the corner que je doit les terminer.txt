@@ -1,0 +1,10 @@
+pour terminer mon projet: the corner 
+il faut connetre bien ces points:
+*how to use javascipt for sign up ang log in ...
+*how to made the page responsive
+voici un lien pour ceci:
+https://www.google.com/search?q=javascript+sign+up+form&rlz=1C1NDCM_frFR968FR968&oq=javascript+sign+&aqs=chrome.1.69i57j0i19l9.4469j0j7&sourceid=chrome&ie=UTF-8
+*et un peut de design 
+*des button de retour a la page precidente
+*faire les button des menu et leur image(quand tu clique sur burger for exampel les photo bouge)
+.........
